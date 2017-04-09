@@ -212,6 +212,7 @@ KIND_URL = {
     "pod": "/api/v1/namespaces/{namespace}/pods",
     "podtemplate": "/api/v1/namespaces/{namespace}/podtemplates",
     "replicationcontroller": "/api/v1/namespaces/{namespace}/replicationcontrollers",  # NOQA
+    "deployment": "/apis/extensions/v1beta1/namespaces/{namespace}/deployments",
     "resourcequota": "/api/v1/namespaces/{namespace}/resourcequotas",
     "secret": "/api/v1/namespaces/{namespace}/secrets",
     "service": "/api/v1/namespaces/{namespace}/services",
